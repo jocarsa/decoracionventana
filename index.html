@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: sans-serif;
+            }
+            #ventana{
+                width:800px;
+                height:100px;
+                box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+                border-radius:10px;
+                padding:0px;
+                
+                margin:50px;
+            }
+            header button{
+                width:20px;
+                height:20px;
+                border-radius:20px;
+                border:0px;
+                float:left;
+                margin-right:15px;
+               
+            }
+            header{
+                background:rgb(240,240,240);
+                padding:10px;
+                border-radius:10px 10px 0px 0px;
+                padding-left:15px;
+            } #cerrar{background:rgb(255,200,200);}
+            #minimizar{background:rgb(255,255,200);}
+            #maximizar{background:rgb(200,255,200);}
+            header p{
+                color:grey;
+                text-align:center;
+            }
+            nav button{
+                width:30px;height:30px;
+                padding:2px;
+                background:white;
+                border:none;
+            }
+            nav button:hover{
+                background:rgb(220,220,220);
+            }
+            nav button img{width:100%;opacity:0.5;}
+            p{padding:0px;margin:0px;}
+            section{
+                background:white;
+                width:100%;
+                height:100%;
+                box-shadow:0px 0px 20px white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ventana">
+            <header>
+                <button id="cerrar"></button>
+                <button id="minimizar"></button>
+                <button id="maximizar"></button>
+                <p>Titulo de la ventana</p>
+            </header>
+            <nav>
+                
+            </nav>
+            <section></section>
+            <footer></footer>
+        </div>
+    </body>
+</html>
